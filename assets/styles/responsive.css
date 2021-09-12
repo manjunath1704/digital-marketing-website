@@ -1,0 +1,88 @@
+@media (max-width: 768px) {
+	.row {
+		flex-direction: column;
+	}
+	.col {
+		width: 100%;
+	}
+	.section__subheading {
+		font-size: 1.6rem;
+		line-height: 47px;
+	}
+	.burgermenu {
+		display: block;
+		cursor: pointer;
+        filter: brightness(0) invert(1);
+        margin-top: 25px;
+	}
+
+    .navbar-wrapper{
+      
+        background-color: #1a129f;
+    }
+    .header__link {
+        color: #fff;
+        
+    }
+	.header__logo {
+		height: 44px;
+        filter: brightness(0) invert(1);
+        margin-top: 5px;
+	}
+	.header__right a {
+		display: block;
+		margin-top: 20px;
+	}
+	.hero-container {
+		z-index: 1;
+	}
+	.header__right {
+		display: none;
+		position: absolute;
+    top: 80px;
+    background-color: #1a129f;
+    width: 100%;
+    left: 0;
+    flex-direction: column;
+    padding: 30px;
+    z-index: 4;
+	}
+    .hero{
+        margin-top:80px;
+    }
+	.hero_wrapper {
+		height: auto;
+	}
+	.hero__right {
+		margin-top: 40px;
+	}
+	.hero__heading {
+		font-size: 2rem;
+		margin-top: 50px;
+	}
+	.about__wrapper {
+		height: auto;
+	}
+	.service-card {
+		width: 100%;
+		padding: 20px;
+		padding-bottom: 40px;
+	}
+	.price__card {
+		padding: 20px;
+		padding-bottom: 40px;
+		width: 100%;
+		margin-top: 50px;
+	}
+	
+	.footer-row {
+		flex-direction: column;
+	}
+	.footer-col {
+		width: 100%;
+		margin-bottom: 50px;
+	}
+	.contact__input {
+		width: 88%;
+	}
+}
